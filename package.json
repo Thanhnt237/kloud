@@ -1,0 +1,32 @@
+{
+  "name": "kloud",
+  "version": "1.0.0",
+  "description": "common kloud package",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thanhnt237/kloud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thanhnt237/kloud/issues"
+  },
+  "homepage": "https://github.com/Thanhnt237/kloud#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.195",
+    "typescript": "^4.1.6"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
